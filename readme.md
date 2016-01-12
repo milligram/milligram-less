@@ -2,11 +2,11 @@
 
 | A minimalist CSS framework.
 
-[![Build Status](https://travis-ci.org/milligram/milligram.svg?branch=master)](https://travis-ci.org/milligram/milligram)
-[![GitHub version](https://badge.fury.io/gh/milligram%2Fmilligram.svg)](https://badge.fury.io/gh/milligram%2Fmilligram)
-[![Bower version](https://badge.fury.io/bo/milligram.svg)](https://badge.fury.io/bo/milligram)
-[![npm version](https://badge.fury.io/js/milligram.svg)](http://badge.fury.io/js/milligram)
-[![Dependencies Status](https://david-dm.org/milligram/milligram.svg)](https://travis-ci.org/milligram/milligram)
+[![Build Status](https://travis-ci.org/milligram/milligram-less.svg?branch=master)](https://travis-ci.org/milligram/milligram-less)
+[![GitHub version](https://badge.fury.io/gh/milligram%2Fmilligram-less.svg)](https://badge.fury.io/gh/milligram%2Fmilligram-less)
+[![Bower version](https://badge.fury.io/bo/milligram-less.svg)](https://badge.fury.io/bo/milligram-less)
+[![npm version](https://badge.fury.io/js/milligram-less.svg)](http://badge.fury.io/js/milligram-less)
+[![Dependencies Status](https://david-dm.org/milligram/milligram-less.svg)](https://travis-ci.org/milligram/milligram-less)
 
 
 ## Why it's awesome?
