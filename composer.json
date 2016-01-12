@@ -1,6 +1,6 @@
 {
 	"name": "milligram/milligram-less",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"description": "A minimalist CSS framework on Less version.",
 	"homepage": "http://milligram.github.io",
 	"repository": "milligram/milligram-less",
