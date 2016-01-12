@@ -1,0 +1,46 @@
+{
+	"name": "milligram/milligram-less",
+	"version": "0.0.1",
+	"description": "A minimalist CSS framework on Less version.",
+	"homepage": "http://milligram.github.io",
+	"repository": "milligram/milligram-less",
+	"license": "MIT",
+	"author": "CJ Patoilo <cjpatoilo@gmail.com>",
+	"main": "dist/milligram.less",
+	"keywords": [
+		"bootstrap",
+		"css",
+		"css3",
+		"front-end",
+		"framework",
+		"html",
+		"html5",
+		"kickstarter",
+		"less",
+		"responsive",
+		"mobile",
+		"mobile-first",
+		"postcss",
+		"responsive",
+		"sass",
+		"scss",
+		"stylus"
+	],
+	"ignore": [
+		".editorconfig",
+		".gitignore",
+		".npmignore",
+		".travis.yml",
+		"bower.json",
+		"component.json",
+		"composer.json",
+		"contributing.md",
+		"gruntfile.js",
+		"package.js",
+		"package.json",
+		"src"
+	],
+	"dependencies": {
+		"normalize.css": "latest"
+	}
+}
