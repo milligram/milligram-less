@@ -19,7 +19,7 @@ module.exports = function ( grunt ) {
 			' * Milligram v<%= pkg.version %>\n'+
 			' * <%= pkg.homepage %>\n'+
 			' *\n'+
-			' * Copyright (c) 2015, CJ Patoilo\n'+
+			' * Copyright (c) '+new Date().getFullYear()+' CJ Patoilo\n'+
 			' * Licensed under the <%= pkg.license %> license\n'+
 			'*/\n\n',
 
@@ -45,7 +45,9 @@ module.exports = function ( grunt ) {
 				],
 				tasks: [
 					'less',
-					'autoprefixer'
+					'autoprefixer',
+					'clean:css',
+					'copy'
 				]
 			}
 		},
@@ -55,7 +57,13 @@ module.exports = function ( grunt ) {
 
 		// Clear files and folders
 		clean: {
-			all: [ 'dist' ]
+			all: [
+				'dist'
+			],
+			css: [
+				'dist/**/*.css',
+				'dist/**/*.map'
+			]
 		},
 
 		// Compile Less files to CSS
@@ -108,6 +116,18 @@ module.exports = function ( grunt ) {
 					'dist/milligram.css': 'dist/milligram.css'
 				}
 			}
+		},
+
+		// Copy files and folders.
+		copy: {
+			all: {
+				files: [{
+					expand: true,
+					cwd: 'src',
+					src: '**',
+					dest: 'dist'
+				}]
+			}
 		}
 
 	});
@@ -125,9 +145,11 @@ module.exports = function ( grunt ) {
 
 	// Build task
 	grunt.registerTask( 'build', [
-		'clean',
+		'clean:all',
 		'less',
-		'autoprefixer'
+		'autoprefixer',
+		'clean:css',
+		'copy'
 	]);
 
 
