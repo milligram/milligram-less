@@ -64,7 +64,7 @@ In this version, Milligram use [Less](http://lesscss.org/) to give super powers 
 	content: '';
 	display: inline-block;
 	font-family: 'Helvetica-Neue', 'Helvetica', 'Arial', sans-serif;
-	margin-bottom: 0
+	margin-bottom: 0;
 	margin-left: 5.0rem;
 
 	.other-selector-a {
