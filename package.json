@@ -47,14 +47,14 @@
 		"normalize.css": "latest"
 	},
 	"devDependencies": {
-		"autoprefixer": "^6.3.6",
-		"less": "^3.0.0-pre.3",
-		"npm-run-all": "^2.1.1",
-		"onchange": "^2.4.0",
-		"postcss-cli": "^2.5.2"
+		"autoprefixer": "^6.5.3",
+		"less": "^3.0.0-pre.4",
+		"npm-run-all": "^2.3.0",
+		"onchange": "^2.5.0",
+		"postcss-cli": "^2.6.0"
 	},
 	"engines": {
-		"node": "^6.0.0"
+		"node": "^7.0.0"
 	},
 	"scripts": {
 		"prestart": "npm install",
