@@ -43,9 +43,6 @@
 		"prettier-standard": "^16.3.0",
 		"rimraf": "^2.5.4"
 	},
-	"engines": {
-		"node": ">=4"
-	},
 	"scripts": {
 		"start": "run-p build watch",
 		"build": "run-s clean copy banner less autoprefixer",
@@ -58,6 +55,10 @@
 		"lint": "",
 		"test": "run-s build lint"
 	},
+  "engines": {
+    "node": "^12.16.2",
+    "npm": "^6.14.4"
+  },
 	"prettier": {
 		"jsxSingleQuote": false,
 		"trailingComma": "all"
