@@ -12,7 +12,7 @@ body {
   font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   font-size: 1.6em;
   font-weight: 300;
-  letter-spacing: .01em;
+  letter-spacing: 0.01em;
   line-height: 1.6;
 }
 blockquote {
@@ -31,16 +31,16 @@ input[type='reset'],
 input[type='submit'] {
   background-color: #9b4dca !default;
   border: 0.1rem solid #9b4dca !default;
-  border-radius: .4rem;
+  border-radius: 0.4rem;
   color: #fff !default;
   cursor: pointer;
   display: inline-block;
   font-size: 1.1rem;
   font-weight: 700;
   height: 3.8rem;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   line-height: 3.8rem;
-  padding: 0 3.0rem;
+  padding: 0 3rem;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -67,7 +67,7 @@ input[type='button'][disabled],
 input[type='reset'][disabled],
 input[type='submit'][disabled] {
   cursor: default;
-  opacity: .5;
+  opacity: 0.5;
 }
 .button[disabled]:focus,
 button[disabled]:focus,
@@ -154,10 +154,10 @@ input[type='submit'].button-clear[disabled]:hover {
 }
 code {
   background: #f4f5f6 !default;
-  border-radius: .4rem;
+  border-radius: 0.4rem;
   font-size: 86%;
-  margin: 0 .2rem;
-  padding: .2rem .5rem;
+  margin: 0 0.2rem;
+  padding: 0.2rem 0.5rem;
   white-space: nowrap;
 }
 pre {
@@ -174,7 +174,7 @@ pre > code {
 hr {
   border: 0;
   border-top: 0.1rem solid #f4f5f6 !default;
-  margin: 3.0rem 0;
+  margin: 3rem 0;
 }
 input[type='email'],
 input[type='number'],
@@ -186,15 +186,15 @@ input[type='url'],
 textarea,
 select {
   -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   background-color: transparent;
   border: 0.1rem solid #d1d1d1 !default;
-  border-radius: .4rem;
+  border-radius: 0.4rem;
   box-shadow: none;
   box-sizing: inherit;
   height: 3.8rem;
-  padding: .6rem 1.0rem;
+  padding: 0.6rem 1rem;
   width: 100%;
 }
 input[type='email']:focus,
@@ -210,8 +210,9 @@ select:focus {
   outline: 0;
 }
 select {
-  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="14" viewBox="0 0 29 14" width="29"><path fill="#d1d1d1" d="M9.37727 3.625l5.08154 6.93523L19.54036 3.625"/></svg>') center right no-repeat;
-  padding-right: 3.0rem;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="14" viewBox="0 0 29 14" width="29"><path fill="#d1d1d1" d="M9.37727 3.625l5.08154 6.93523L19.54036 3.625"/></svg>')
+    center right no-repeat;
+  padding-right: 3rem;
 }
 select:focus {
   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="14" viewBox="0 0 29 14" width="29"><path fill="#9b4dca" d="M9.37727 3.625l5.08154 6.93523L19.54036 3.625"/></svg>');
@@ -224,7 +225,7 @@ legend {
   display: block;
   font-size: 1.6rem;
   font-weight: 700;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 fieldset {
   border-width: 0;
@@ -237,12 +238,12 @@ input[type='radio'] {
 .label-inline {
   display: inline-block;
   font-weight: normal;
-  margin-left: .5rem;
+  margin-left: 0.5rem;
 }
 .container {
   margin: 0 auto;
-  max-width: 112.0rem;
-  padding: 0 2.0rem;
+  max-width: 112rem;
+  padding: 0 2rem;
   position: relative;
   width: 100%;
 }
@@ -366,7 +367,7 @@ input[type='radio'] {
 }
 .row .column .column-center {
   -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
 }
 @media (min-width: 40rem) {
   .row {
@@ -376,7 +377,7 @@ input[type='radio'] {
   }
   .row .column {
     margin-bottom: inherit;
-    padding: 0 1.0rem;
+    padding: 0 1rem;
   }
 }
 a {
@@ -404,7 +405,7 @@ dl ul,
 ol ul,
 ul ul {
   font-size: 90%;
-  margin: 1.5rem 0 1.5rem 3.0rem;
+  margin: 1.5rem 0 1.5rem 3rem;
 }
 ol {
   list-style: decimal inside;
@@ -417,7 +418,7 @@ button,
 dd,
 dt,
 li {
-  margin-bottom: 1.0rem;
+  margin-bottom: 1rem;
 }
 fieldset,
 input,
@@ -469,7 +470,7 @@ h5,
 h6 {
   font-weight: 300;
   letter-spacing: -0.1rem;
-  margin-bottom: 2.0rem;
+  margin-bottom: 2rem;
   margin-top: 0;
 }
 h1 {
