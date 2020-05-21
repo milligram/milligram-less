@@ -44,16 +44,15 @@
     "rimraf": "^3.0.2"
   },
   "scripts": {
-    "start": "run-p build watch",
-    "build": "run-s clean copy banner less autoprefixer",
-    "clean": "rimraf dist",
-    "less": "lessc src/milligram.less test/milligram.css && lessc --compress src/milligram.less test/milligram.min.css",
     "autoprefixer": "postcss -u autoprefixer --no-map.inline --autoprefixer.browsers \"last 1 versions\" -r test/*.css",
-    "copy": "copycopy src/**/* dist",
     "banner": "banner-cli dist/*.less",
-    "watch": "onchange src -- run-p build",
-    "lint": "",
-    "test": "run-s build lint"
+    "build": "rimraf dist && run-s copy banner less autoprefixer",
+    "copy": "copycopy src/**/* dist",
+    "less": "lessc src/milligram.less test/milligram.css && lessc --compress src/milligram.less test/milligram.min.css",
+    "lint": "prettier-standard --check",
+    "start": "run-p build watch",
+    "test": "run-s build",
+    "watch": "onchange src -- run-p build"
   },
   "engines": {
     "node": "^12.16.2",
