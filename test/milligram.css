@@ -222,8 +222,7 @@ select:focus {
   outline: 0;
 }
 select {
-  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 8" width="30"><path fill="%23#d1d1d1" d="M0,0l6,8l6-8"/></svg>')
-    center right no-repeat;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 8" width="30"><path fill="%23#d1d1d1" d="M0,0l6,8l6-8"/></svg>') center right no-repeat;
   padding-right: 3rem;
 }
 select:focus {
